@@ -1,0 +1,53 @@
+function setup() {
+  createCanvas(600, 600);
+  strokeWeight(6)
+}
+
+function draw() {
+  background(220);
+  stroke(color(33,38,33))
+  line(50, 580,50, 50);  // vertical line
+  line(130, 58,130, 20);  // 1st noded -2nd vertical line
+  line(550, 580,550, 20);  // vertical line
+  line(370, 580,370, 20);// 2nd noded - 3rd vertical line
+  line(370, 580,370, 50);// 2nd noded - 3rd vertical line
+  line(460, 200,460, 370);// vert line
+  line(205, 580,205, 50);// 3-vertical line
+  line(20, 50,550, 50);  // 1-horizontal line
+  line(20, 230,550, 230);// horizontal line
+  line(20, 525,550, 525);// horizontal line
+  line(50, 450,580, 450);// horizontal line
+  line(350, 370,550,370);// 3rd- juzaposed-short- horizontal line
+  line(205, 570,370, 570);  // horizontal line
+  stroke(color(220))
+  line(550, 580, 550, 600);// 3-vertical line
+  stroke(color(33,38,33))
+  fill(color(255,0,0))
+  rect(50,50,320,320)
+  fill(color(29,6,9))
+  rect(50,370,155,155)
+  fill(color(54,40,169))
+  rect(370,450,180,120)
+  fill(color(255,0,0))
+  rect(550,450,66,190)
+  fill(color(249,213,138))
+  rect(0,450,50,190)
+  fill(color(0,0,0))
+  rect(209,529,160,40)
+  fill(color(220,220,220))
+  
+  noStroke()
+  rect(365,573,22,22)
+  fill(color(249,213,138))
+  rect(47,580,5.99,40)
+  fill(color(255,0,0))
+  rect(547,579,5.99,40)
+  fill(color(249,213,138))
+  rect(373,0,174,48)
+    
+  rect(373,54,174,173)
+  rect(547,0,5.99,20)
+  rect(367,0,5.99,20)
+  rect(0,453,47,200)
+  rect(0,447,20,20)
+}
